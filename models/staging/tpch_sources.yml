@@ -15,6 +15,6 @@ sources:
         columns:
           - name: l_orderkey
             tests:
-              - relationship:
+              - relationships:
                   to: source('tpch', 'orders')
                   field: o_orderkey
